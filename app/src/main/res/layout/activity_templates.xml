@@ -20,13 +20,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#ffffff"
+            android:background="#ffffff">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="horizontal"
+            android:orientation="horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -45,7 +45,6 @@
             android:textColor="#ffffff"
             android:textStyle="bold" />
     </LinearLayout>
-</FrameLayout></LinearLayout>
-
-
-    </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
