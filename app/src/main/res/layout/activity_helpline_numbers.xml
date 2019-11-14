@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="20sp"
+        android:text="Common Helpline Number for Reference"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="National Emergency Number(112)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Ambulance(102)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Women Helpline Number(1090)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Traffic Police (1095)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Child Helpline Number(1098)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Disaster Management Services(108)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="National Emergency Number(112)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Police (100)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:padding="20sp"
+        android:text="Fire (101)"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+</LinearLayout>
+
+
+
