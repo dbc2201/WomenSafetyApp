@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewTemplateActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter your template here" />
+
+    <CheckBox
+        android:id="@+id/cbDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set As Default Template"
+        android:theme="@android:style/Theme.Holo.Light.Panel" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="ADD"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>
