@@ -9,7 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 import in.ac.gla.miniproject.womensafetyapp.models.Contacts;
-import in.ac.gla.miniproject.womensafetyapp.models.Templates;
 
 public class MyDatabase extends SQLiteOpenHelper {
 

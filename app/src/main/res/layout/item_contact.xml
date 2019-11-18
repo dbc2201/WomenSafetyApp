@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_width="match_parent"
     android:orientation="horizontal"
     android:padding="20dp">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/contact"
         android:layout_gravity="center_vertical"
-        android:layout_marginRight="15dp"
-        android:src="@drawable/contact" />
+        android:layout_marginRight="15dp" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <TextView
             android:id="@+id/t1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="NAME"
             android:textSize="20sp"
-            android:textStyle="bold" />
-
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="NAME" />
         <TextView
+            android:id="@+id/t2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONTACT NUMBER"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+
+            />
 
 
     </LinearLayout>
 
     <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
         android:id="@+id/deleteContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginLeft="20dp"
 
-        android:src="@android:drawable/ic_delete" />
+        android:src="@android:drawable/ic_delete"
+
+        />
 </LinearLayout>

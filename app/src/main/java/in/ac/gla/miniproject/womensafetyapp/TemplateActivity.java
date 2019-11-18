@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 import in.ac.gla.miniproject.womensafetyapp.adapters.MyAdapterTemplate;
-import in.ac.gla.miniproject.womensafetyapp.models.Templates;
 
 public class TemplateActivity extends AppCompatActivity implements MyAdapterTemplate.DeleteListener, AdapterView.OnItemClickListener {
     ListView listTemplate;
