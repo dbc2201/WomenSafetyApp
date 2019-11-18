@@ -20,4 +20,3 @@ public class Contacts {
         this.number = number;
     }
 }
-

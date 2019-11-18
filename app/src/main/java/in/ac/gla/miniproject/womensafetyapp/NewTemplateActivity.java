@@ -9,8 +9,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import in.ac.gla.miniproject.womensafetyapp.models.Templates;
-
 public class NewTemplateActivity extends AppCompatActivity implements View.OnClickListener {
     EditText et1;
     Button btn1;
