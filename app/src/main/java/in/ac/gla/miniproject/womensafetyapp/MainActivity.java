@@ -148,6 +148,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+        if (menuid == R.id.About) {
+            Intent browserIntent = new Intent(this, HelpActivity.class);
+            startActivity(browserIntent);
+
+
+        }
+
+
 
 
         if (menuid == R.id.Exit) {

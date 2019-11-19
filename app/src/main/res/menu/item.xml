@@ -12,6 +12,12 @@
         android:title="Help"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/About"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+
 
     <item
         android:id="@+id/Exit"
