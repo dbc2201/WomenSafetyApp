@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import in.ac.gla.miniproject.womensafetyapp.R;
+import in.ac.gla.miniproject.womensafetyapp.models.Contacts;
 
 public class MyAdapter extends ArrayAdapter {
     ImageView deleteContact;

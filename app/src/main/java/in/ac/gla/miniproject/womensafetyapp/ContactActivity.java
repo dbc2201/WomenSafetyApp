@@ -16,6 +16,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import in.ac.gla.miniproject.womensafetyapp.adapters.MyAdapter;
+import in.ac.gla.miniproject.womensafetyapp.models.Contacts;
 
 public class ContactActivity extends Activity implements View.OnClickListener, MyAdapter.DeleteListener {
     private static final int RQS_PICK_CONTACT = 1131;
@@ -106,4 +107,6 @@ public class ContactActivity extends Activity implements View.OnClickListener, M
 
         }
     }
+
+
 }

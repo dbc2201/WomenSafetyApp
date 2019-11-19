@@ -15,7 +15,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import in.ac.gla.miniproject.womensafetyapp.R;
-import in.ac.gla.miniproject.womensafetyapp.Templates;
+import in.ac.gla.miniproject.womensafetyapp.models.Templates;
+
+//import in.ac.gla.miniproject.models.Templates;
 
 public class MyAdapterTemplate extends ArrayAdapter {
 
@@ -36,7 +38,7 @@ public class MyAdapterTemplate extends ArrayAdapter {
         View view = context.getLayoutInflater().inflate(resource, parent, false);
         final Templates c = allList.get(position);
         ImageView deleteTemplate;
-        TextView texttemplate = view.findViewById(R.id.texttemplate);
+        TextView texttemplate = view.findViewById(R.id.textTemplate);
         texttemplate.setText(c.getMsg());
         deleteTemplate = view.findViewById(R.id.deleteTemplate);
 
